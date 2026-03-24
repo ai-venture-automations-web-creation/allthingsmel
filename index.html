@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO Meta Tags -->
+  <title>AllThingsMel | Beauty by Mel — Lyndhurst, NJ</title>
+  <meta name="description" content="AllThingsMel is a curated personal beauty brand based in Lyndhurst, NJ. Makeup application, lash extensions, brow styling, facials, and special event glam — crafted intimately by Mel." />
+  <meta name="keywords" content="AllThingsMel, beauty salon Lyndhurst NJ, makeup artist NJ, lash extensions Lyndhurst, brow styling, special event glam, Mel makeup" />
+  <meta name="author" content="AllThingsMel" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://allthingsmel.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AllThingsMel | Beauty by Mel — Lyndhurst, NJ" />
+  <meta property="og:description" content="Personal beauty brand curated by Mel. Makeup, lashes, brows, facials, and glam — all things beautiful, all by Mel." />
+  <meta property="og:url" content="https://allthingsmel.com/" />
+  <meta property="og:image" content="images/hero-1.jpg" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AllThingsMel | Beauty by Mel" />
+  <meta name="twitter:description" content="Curated personal beauty brand in Lyndhurst, NJ. Book via DM." />
+  <meta name="twitter:image" content="images/hero-1.jpg" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "AllThingsMel",
+    "description": "Personal beauty brand offering makeup application, lash extensions, brow styling, facial treatments, and special event glam services in Lyndhurst, NJ.",
+    "url": "https://allthingsmel.com",
+    "image": "images/hero-1.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lyndhurst",
+      "addressRegion": "NJ",
+      "postalCode": "07071",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8063938,
+      "longitude": -74.1195308
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "7",
+      "bestRating": "5"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ],
+    "priceRange": "$$",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Beauty Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Makeup Application" }, "price": "65", "priceCurrency": "USD" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Lash Extensions" }, "price": "80", "priceCurrency": "USD" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brow Styling" }, "price": "28", "priceCurrency": "USD" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Facial Treatment" }, "price": "55", "priceCurrency": "USD" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Special Event Glam" }, "price": "100", "priceCurrency": "USD" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "The Mel Package" }, "price": "90", "priceCurrency": "USD" }
+      ]
+    }
+  }
+  </script>
+
+  <!-- Google Fonts: Personal brand pairing — Cormorant Garamond (editorial) + DM Sans (clean body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner container">
+      <a href="#hero" class="logo" aria-label="AllThingsMel home">
+        <span class="logo-all">all</span><span class="logo-things">things</span><span class="logo-mel">mel</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="btn btn-primary nav-cta">Book via DM</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#gallery" class="mobile-nav-link">Gallery</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+        <a href="#contact" class="btn btn-primary mobile-cta">Book via DM</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+      <div class="hero-media">
+        <img
+          src="images/hero-1.jpg"
+          alt="Elegant beauty close-up by AllThingsMel"
+          class="hero-img"
+          fetchpriority="high"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content container">
+        <div class="hero-badge fade-in">Lyndhurst, NJ &nbsp;&#183;&nbsp; 5.0 Stars</div>
+        <h1 class="hero-heading fade-up">
+          All things <em>beautiful</em>,<br />curated by Mel.
+        </h1>
+        <p class="hero-sub fade-up delay-1">
+          A personal beauty experience designed around you — intimate, intentional, and always flawless.
+        </p>
+        <div class="hero-actions fade-up delay-2">
+          <a href="#contact" class="btn btn-light">Book via DM</a>
+          <a href="#services" class="btn btn-ghost-light">View Services</a>
+        </div>
+      </div>
+
+      <a href="#services" class="scroll-hint" aria-label="Scroll to services">
+        <span class="scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ========== MARQUEE STRIP ========== -->
+    <div class="marquee-strip" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Makeup Application</span>
+        <span class="dot">&#9679;</span>
+        <span>Lash Extensions</span>
+        <span class="dot">&#9679;</span>
+        <span>Brow Styling</span>
+        <span class="dot">&#9679;</span>
+        <span>Facial Treatment</span>
+        <span class="dot">&#9679;</span>
+        <span>Special Event Glam</span>
+        <span class="dot">&#9679;</span>
+        <span>The Mel Package</span>
+        <span class="dot">&#9679;</span>
+        <span>Makeup Application</span>
+        <span class="dot">&#9679;</span>
+        <span>Lash Extensions</span>
+        <span class="dot">&#9679;</span>
+        <span>Brow Styling</span>
+        <span class="dot">&#9679;</span>
+        <span>Facial Treatment</span>
+        <span class="dot">&#9679;</span>
+        <span>Special Event Glam</span>
+        <span class="dot">&#9679;</span>
+        <span>The Mel Package</span>
+        <span class="dot">&#9679;</span>
+      </div>
+    </div>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="services section-pad" id="services">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-eyebrow">What I Offer</p>
+          <h2 class="section-title">Services by Mel</h2>
+          <p class="section-desc">Every service is a one-on-one experience. No rush, no assembly line — just Mel and her craft, dedicated entirely to you.</p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card fade-up" data-delay="0">
+            <div class="service-icon">
+              <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5"/><path d="M13 22c0-3.866 3.134-7 7-7s7 3.134 7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="20" cy="15" r="2" fill="currentColor"/></svg>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Makeup Application</h3>
+              <p class="service-desc">Full-face glam tailored to your features, skin tone, and occasion. From natural everyday looks to full drama.</p>
+              <div class="service-footer">
+                <span class="service-price">$65</span>
+                <a href="#contact" class="service-book">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card fade-up" data-delay="1">
+            <div class="service-icon">
+              <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M8 28c4-8 8-14 12-14s8 6 12 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M14 24c2-4 4-7 6-7s4 3 6 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Lash Extensions</h3>
+              <p class="service-desc">Classic, hybrid, or volume sets applied with precision. Wake up looking effortlessly done — every single day.</p>
+              <div class="service-footer">
+                <span class="service-price">$80</span>
+                <a href="#contact" class="service-book">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card fade-up" data-delay="2">
+            <div class="service-icon">
+              <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M10 20c3-6 7-8 10-8s7 2 10 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M12 22c2.5-4 5-6 8-6s5.5 2 8 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Brow Styling</h3>
+              <p class="service-desc">Shape, tint, or laminate — your brows framed and defined to elevate your entire face, no makeup required.</p>
+              <div class="service-footer">
+                <span class="service-price">$28</span>
+                <a href="#contact" class="service-book">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card fade-up" data-delay="3">
+            <div class="service-icon">
+              <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M20 10V8M20 32v-2M10 20H8M32 20h-2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Facial Treatment</h3>
+              <p class="service-desc">Skin-first care with deep cleansing, exfoliation, and nourishing masks. Glow from within, refreshed and radiant.</p>
+              <div class="service-footer">
+                <span class="service-price">$55</span>
+                <a href="#contact" class="service-book">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card fade-up" data-delay="4">
+            <div class="service-icon">
+              <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 8l2.5 7.5H30l-6.5 4.5 2.5 7.5L20 23l-6 4.5 2.5-7.5L10 15.5h7.5L20 8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Special Event Glam</h3>
+              <p class="service-desc">Weddings, proms, photoshoots, nights out — whatever the occasion, Mel makes sure you walk in unforgettable.</p>
+              <div class="service-footer">
+                <span class="service-price">$100</span>
+                <a href="#contact" class="service-book">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card service-card--featured fade-up" data-delay="5">
+            <div class="service-featured-badge">Most Popular</div>
+            <div class="service-icon">
+              <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 6C12.268 6 6 12.268 6 20s6.268 14 14 14 14-6.268 14-14S27.732 6 20 6z" stroke="currentColor" stroke-width="1.5"/><path d="M15 20c0 2.761 2.239 5 5 5s5-2.239 5-5-2.239-5-5-5-5 2.239-5 5z" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">The Mel Package</h3>
+              <p class="service-desc">The full AllThingsMel experience — brows, lashes, and a flawless makeup application all in one curated session.</p>
+              <div class="service-footer">
+                <span class="service-price">$90</span>
+                <a href="#contact" class="service-book">Book Now</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="services-note fade-up">
+          <p>All services are by appointment via DM. <a href="#contact">Reach out to book your session &rarr;</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about section-pad" id="about">
+      <div class="container about-grid">
+
+        <div class="about-images fade-up">
+          <div class="about-img-main">
+            <img
+              src="images/about-1.jpg"
+              alt="Makeup artist working on a client"
+              loading="lazy"
+              width="600"
+              height="750"
+            />
+          </div>
+          <div class="about-img-accent">
+            <img
+              src="images/about-2.jpg"
+              alt="Beauty tools and brushes"
+              loading="lazy"
+              width="300"
+              height="300"
+            />
+            <div class="about-stat-card">
+              <span class="stat-num">5.0</span>
+              <span class="stat-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="stat-label">7 Reviews</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content fade-up delay-1">
+          <p class="section-eyebrow">Behind the Brand</p>
+          <h2 class="section-title">Hi, I'm Mel.</h2>
+          <p class="about-lead">Beauty isn't a mask — it's an expression. Everything I do is built around making <em>you</em> feel like the most radiant version of yourself.</p>
+          <p class="about-body">Based out of Lyndhurst, NJ, AllThingsMel is my personal beauty brand — a space where every appointment is intentional, every look is customized, and every client leaves feeling genuinely transformed. I don't do cookie-cutter. I do <em>you</em>.</p>
+          <p class="about-body">From a soft brow shape-up to full special-event glam, I bring the same level of care and precision to every single service. My work speaks for itself, and my clients keep coming back because they know — with Mel, the details matter.</p>
+
+          <div class="about-values">
+            <div class="value-item">
+              <span class="value-icon">&#10022;</span>
+              <span>One-on-one, always</span>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">&#10022;</span>
+              <span>No walk-ins — your time is sacred</span>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">&#10022;</span>
+              <span>Premium products only</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary about-cta">Book Your Session</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== GALLERY ========== -->
+    <section class="gallery section-pad" id="gallery">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-eyebrow">The Portfolio</p>
+          <h2 class="section-title">All Things Beautiful</h2>
+          <p class="section-desc">Every look tells a story. Here's a glimpse into the AllThingsMel aesthetic.</p>
+        </div>
+
+        <div class="gallery-grid">
+
+          <div class="gallery-item fade-up" data-delay="0">
+            <img
+              src="images/hero-2.jpg"
+              alt="Flawless makeup look by AllThingsMel"
+              loading="lazy"
+              width="600"
+              height="900"
+            />
+            <div class="gallery-overlay">
+              <span>Makeup Application</span>
+            </div>
+          </div>
+
+          <div class="gallery-item fade-up" data-delay="1">
+            <img
+              src="images/gallery-3.jpg"
+              alt="Lash extension close-up by AllThingsMel"
+              loading="lazy"
+              width="600"
+              height="400"
+            />
+            <div class="gallery-overlay">
+              <span>Lash Extensions</span>
+            </div>
+          </div>
+
+          <div class="gallery-item fade-up" data-delay="2">
+            <img
+              src="images/gallery-4.jpg"
+              alt="Brow styling result by AllThingsMel"
+              loading="lazy"
+              width="600"
+              height="400"
+            />
+            <div class="gallery-overlay">
+              <span>Brow Styling</span>
+            </div>
+          </div>
+
+          <div class="gallery-item fade-up" data-delay="3">
+            <img
+              src="images/gallery-5.jpg"
+              alt="Special event glam by AllThingsMel"
+              loading="lazy"
+              width="900"
+              height="500"
+            />
+            <div class="gallery-overlay">
+              <span>Special Event Glam</span>
+            </div>
+          </div>
+
+          <div class="gallery-item fade-up" data-delay="4">
+            <img
+              src="images/gallery-6.jpg"
+              alt="Facial treatment by AllThingsMel"
+              loading="lazy"
+              width="600"
+              height="400"
+            />
+            <div class="gallery-overlay">
+              <span>Facial Treatment</span>
+            </div>
+          </div>
+
+          <div class="gallery-item fade-up" data-delay="5">
+            <img
+              src="images/gallery-7.jpg"
+              alt="The Mel Package — full beauty experience"
+              loading="lazy"
+              width="600"
+              height="400"
+            />
+            <div class="gallery-overlay">
+              <span>The Mel Package</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="gallery-cta fade-up">
+          <p>See more on Instagram</p>
+          <a href="#contact" class="btn btn-outline">Follow &amp; Book via DM &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIAL ========== -->
+    <section class="testimonial-section section-pad" aria-label="Client testimonials">
+      <div class="container">
+        <div class="testimonial-track-wrap fade-up">
+          <div class="testimonial-card">
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>"Mel did my makeup for my wedding and I have never felt more beautiful in my life. She truly listened to my vision and made it better than I imagined."</blockquote>
+            <cite>— Verified Google Review</cite>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>"Got The Mel Package before my photoshoot and wow. Brows on point, lashes stunning, makeup flawless. I'll never go anywhere else."</blockquote>
+            <cite>— Verified Google Review</cite>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>"Mel is incredibly talented and so warm and welcoming. She made me feel so comfortable. My lash extensions lasted longer than any I've had before."</blockquote>
+            <cite>— Verified Google Review</cite>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>"I booked Mel for my prom glam and she absolutely delivered. My skin looked flawless all night — no touch-ups needed. Everyone kept asking who did my makeup!"</blockquote>
+            <cite>— D.R. &mdash; Kearny, NJ</cite>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>"My brow lamination turned out better than anything I've seen on Instagram. Mel shaped them perfectly for my face and the results lasted so long. I'm officially a regular."</blockquote>
+            <cite>— T.M. &mdash; Rutherford, NJ</cite>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>"Mel did my facial and my skin glowed for two weeks straight. She really takes her time and explains everything she's doing. You can tell she genuinely cares about her clients."</blockquote>
+            <cite>— S.V. &mdash; Belleville, NJ</cite>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact section-pad" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-content fade-up">
+          <p class="section-eyebrow">Get In Touch</p>
+          <h2 class="section-title">Ready for your moment?</h2>
+          <p class="contact-sub">Booking is exclusively through DM — this keeps things personal and ensures Mel can give you her full attention before your appointment even begins.</p>
+
+          <div class="contact-channels">
+            <a href="https://www.instagram.com/allthingsmel" class="contact-channel" target="_blank" rel="noopener noreferrer" aria-label="Book via Instagram DM">
+              <div class="channel-icon channel-icon--ig">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </div>
+              <div class="channel-text">
+                <span class="channel-label">Instagram</span>
+                <span class="channel-action">DM to Book &rarr;</span>
+              </div>
+            </a>
+
+            <a href="https://www.facebook.com/allthingsmel" class="contact-channel" target="_blank" rel="noopener noreferrer" aria-label="Book via Facebook Messenger">
+              <div class="channel-icon channel-icon--fb">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </div>
+              <div class="channel-text">
+                <span class="channel-label">Facebook</span>
+                <span class="channel-action">Message to Book &rarr;</span>
+              </div>
+            </a>
+
+            <div class="contact-channel contact-channel--info">
+              <div class="channel-icon channel-icon--loc">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              </div>
+              <div class="channel-text">
+                <span class="channel-label">Location</span>
+                <span class="channel-action">Lyndhurst, NJ 07071</span>
+              </div>
+            </div>
+
+            <div class="contact-channel contact-channel--info">
+              <div class="channel-icon channel-icon--hrs">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="channel-text">
+                <span class="channel-label">Hours</span>
+                <span class="channel-action">Opens 9 AM Wed &bull; By appt.</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://www.instagram.com/allthingsmel" class="btn btn-primary contact-btn" target="_blank" rel="noopener noreferrer">
+            Book via Instagram DM
+          </a>
+        </div>
+
+        <div class="contact-map fade-up delay-1">
+          <div class="map-wrapper">
+            <iframe
+              title="AllThingsMel location in Lyndhurst, NJ"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.8!2d-74.1195308!3d40.8063938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ4JzIzLjAiTiA3NMKwMDcnMTAuMyJX!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <a href="#hero" class="logo logo--footer" aria-label="AllThingsMel home">
+          <span class="logo-all">all</span><span class="logo-things">things</span><span class="logo-mel">mel</span>
+        </a>
+        <p class="footer-tagline">Beauty curated, just for you.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/allthingsmel" target="_blank" rel="noopener noreferrer" aria-label="AllThingsMel on Instagram" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/allthingsmel" target="_blank" rel="noopener noreferrer" aria-label="AllThingsMel on Facebook" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4 class="footer-col-title">Services</h4>
+          <ul>
+            <li><a href="#services">Makeup Application</a></li>
+            <li><a href="#services">Lash Extensions</a></li>
+            <li><a href="#services">Brow Styling</a></li>
+            <li><a href="#services">Facial Treatment</a></li>
+            <li><a href="#services">Special Event Glam</a></li>
+            <li><a href="#services">The Mel Package</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigate</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Mel</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Book</h4>
+          <p class="footer-col-text">Appointments via DM only. Reach out on Instagram or Facebook to reserve your session with Mel.</p>
+          <a href="https://www.instagram.com/allthingsmel" class="btn btn-primary btn--sm footer-book-btn" target="_blank" rel="noopener noreferrer">Book via DM</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; <span id="footer-year">2025</span> AllThingsMel. All rights reserved. Lyndhurst, NJ.</p>
+      <p class="footer-rating">
+        <span>&#9733; 5.0</span> &mdash; 7 Google Reviews
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
